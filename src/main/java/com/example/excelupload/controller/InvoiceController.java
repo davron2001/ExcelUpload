@@ -28,7 +28,7 @@ public class InvoiceController {
     @Autowired
     InvoiceRepository repo;
 
-    @GetMapping("/")
+    @GetMapping("/get")
     public String index() {
         return "uploadPage";
     }
